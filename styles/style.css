@@ -91,6 +91,7 @@ nav{
   width: 90%;
   margin: 0 auto 0;
   display: flex;
+  background-color: #F9F6EE;
   
 }
 .banner-content{
@@ -150,6 +151,23 @@ nav{
   .nav-items-container a{
     margin-top: 20px;
   }
+  .banner{
+    background-color: #fff;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .banner-content{
+    width: 100%;
+    background-color: #F9F6EE;
+    text-align: center;
+  }
+  .banner-img{
+    width: 100%;
+    background-color: #FFF;
+    align-items: center;
+  }
 }
 
 
@@ -164,5 +182,22 @@ nav{
   }
   .nav-items-container a{
     margin-top: 20px;
+  }
+  .banner{
+    background-color: #fff;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .banner-content{
+    width: 100%;
+    background-color: #F9F6EE;
+    text-align: center;
+  }
+  .banner-img{
+    width: 100%;
+    background-color: #FFF;
+    align-items: center;
   }
 }
