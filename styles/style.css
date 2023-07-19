@@ -235,13 +235,13 @@ nav{
 .img-cards{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 22.5%);
   gap: 20px;
 }
 .img-card{
   display: flex;
   align-items: center;
   gap: 10px;
+  transition: all 3s ease-in-out;
 }
 .img-card img{
   width:10% ;
@@ -251,8 +251,12 @@ nav{
   font-size: 1rem;
   font-weight: 600;
 }
-#img-1, #img-2, #img-3, #img-4{
-  
+.img-card:hover{
+  border-radius: 30px;
+  border: 1px solid #F948B2;
+  background-color:  lightgray ;
+  border-radius: 50px;
+
 }
 /* finish img section area */
 /* footer section area */
