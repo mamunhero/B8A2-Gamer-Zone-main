@@ -230,34 +230,86 @@ nav{
 .img-container{
   width: 90%;
   margin: 100px auto 50px;
-  border: 1px solid red;
+  
 }
 .img-cards{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 22.5%);
   gap: 20px;
-
 }
 .img-card{
   display: flex;
   align-items: center;
   gap: 10px;
 }
+.img-card img{
+  width:10% ;
+}
+.img-card p{
+  color: #0B0223;
+  font-size: 1rem;
+  font-weight: 600;
+}
+#img-1, #img-2, #img-3, #img-4{
+  
+}
 /* finish img section area */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer section area */
+footer{
+  height: 70vh;
+  background: #0B0223;
+  text-align: center;
+  padding-top: 100px;
+}
+.logo-box{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.logo-box .logo-description{
+  color: #FFF;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.footer-info{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.footer-info p{
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 20px;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+}
+.fa-brands{
+  font-size: 2.5rem;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.policy{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.policy p{
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 20px;
+}
+footer p{
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* finish footer section area */
 
 /* responsive design */
 /* smail-device */
@@ -335,29 +387,39 @@ nav{
   .play-games-img{
     width: 100%;
   }
+  .img-container{
+    width: 100%; 
+    text-align: center;
+  }
+  .img-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .img-card p{
+    font-size: 0.50rem;
+  }
+  footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  .footer-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .social-icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .policy{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer p{
+    font-size: 2rem;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* tablet device */
 @media screen and (min-width:426px) and (max-width:768px) {
   .nav-container{
@@ -410,5 +472,37 @@ nav{
   }
   .play-games-img{
     text-align: center;
+  }
+  .img-container{
+    width: 100%; 
+    text-align: center;
+  }
+  .img-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .img-card p{
+    font-size: 1rem;
+  }
+  footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  .footer-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .social-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .policy{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer p{
+    font-size: 1rem;
   }
 }
