@@ -223,7 +223,27 @@ nav{
   width: 100%;
 }
 /* finish play games area */
+/* img section area */
+.img{
 
+}
+.img-container{
+  width: 90%;
+  margin: 100px auto 50px;
+  border: 1px solid red;
+}
+.img-cards{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+
+}
+.img-card{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* finish img section area */
 
 
 
