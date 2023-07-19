@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 .btn-primary{
   border-radius: 48px;
@@ -24,6 +25,10 @@
   font-size: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+main{
+  width: 90%;
+  margin: 50px auto 50px;
 }
 /* nav section styles here  */
 
@@ -125,10 +130,43 @@ nav{
   width: 100%;
   height: auto;
 }
+/* finish banner area */
 
+/* card styles design */
 
-
-
+.online-title{
+  color: #0B0223;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.online-text{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  
+}
+.online-description{
+  color: #534C64;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.card{
+  border-radius: 16px;
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+}
+.card img{
+  width: 100%;
+}
 
 
 
@@ -168,6 +206,33 @@ nav{
     background-color: #FFF;
     align-items: center;
   }
+  .cards{
+    display: grid;
+    grid-template-columns:1fr;
+  }
+  .online-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .online-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    
+  }
+  .online-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+  }
+  .card p{
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+  }
 }
 
 
@@ -199,5 +264,16 @@ nav{
     width: 100%;
     background-color: #FFF;
     align-items: center;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .card p{
+    font-size: 1rem;
+    text-align: left;
+    padding: 10px;
+    font-weight: 400;
   }
 }
