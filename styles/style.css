@@ -96,12 +96,12 @@ nav{
   width: 90%;
   margin: 0 auto 0;
   display: flex;
-  background-color: #F9F6EE;
   
 }
 .banner-content{
   width: 50%;
   padding-top: 130px;
+  
 }
 .banner-heading{
   color: #0B0223;
@@ -205,6 +205,7 @@ nav{
   text-align: center;
   border-radius: 8px;
   position: relative;
+  padding: 30px 30px ;
 }
 .play-games-img img{
   width: 70%;
@@ -213,11 +214,11 @@ nav{
   display: flex;
   border-radius: 8px;
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 0%;
-  right: 70%;
-  bottom: 0%; 
-  margin-bottom: -15%;
+  right: 60%;
+  /* bottom: 0%;  */
+  /* margin-bottom: -1%; */
 }
 .relative-img img{
   width: 100%;
@@ -236,6 +237,7 @@ nav{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  padding: 10px 20px;
 }
 .img-card{
   display: flex;
@@ -510,3 +512,21 @@ footer p{
     font-size: 1rem;
   }
 }
+
+border-radius: 8px;
+  background: #FF900E; 
+  color: #FFF;
+  width: 342px;
+  padding: 30px;
+  position: relative;
+  bottom: 100px;
+
+
+
+
+
+
+
+
+
+
