@@ -225,25 +225,29 @@ nav{
 }
 /* finish play games area */
 /* img section area */
-.img{
-
-}
 .img-container{
   width: 90%;
   margin: 150px auto 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
 }
 .img-cards{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .img-card{
+  width: 230px;
+  text-align: center;
   display: flex;
+  justify-items: center;
   align-items: center;
-  gap: 10px;
-  transition: all 3s ease-in-out;
+ 
+
 }
 .img-card img{
   width:10% ;
@@ -258,7 +262,6 @@ nav{
   border: 2px solid #F948B2;
   background-color:  lightgray ;
   border-radius: 50px;
-
 }
 /* finish img section area */
 /* footer section area */
@@ -512,14 +515,43 @@ footer p{
     font-size: 1rem;
   }
 }
+/* solution css */
 
+.img-container{
+  width: 90%;
+  margin: 150px auto 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.img-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.img-card{
+  width: 230px;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+ 
 
-
-
-
-
-
-
-
-
-
+}
+.img-card img{
+  width:10% ;
+}
+.img-card p{
+  color: #0B0223;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.img-card:hover{
+  border-radius: 30px;
+  border: 2px solid #F948B2;
+  background-color:  lightgray ;
+  border-radius: 50px;
+}
